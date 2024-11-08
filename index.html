@@ -1,0 +1,830 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" dk_fouc"><!-- InstanceBegin template="/Templates/micuenta_responsivo.dwt" codeOutsideHTMLIsLocked="false" --><head>
+
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>eticket : Mis Eventos</title>
+    <meta name="title" content="eticket : Mis Eventos">
+    <meta name="description" content="Accede a tu cuenta para ver tus últimas compras y administrar tu perfil">
+    <meta name="keywords" content="mi cuenta, eticket, perfil, ultimas compras">
+    <!-- InstanceEndEditable -->
+    
+    <script src="https://js-agent.newrelic.com/nr-1216.min.js"></script><script async="" src="//rum-static.pingdom.net/pa-527b1d69abe53dfd60000000.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.es._62wq-nhyeI.O/m=client/rt=j/sv=1/d=1/ed=1/am=AACA/rs=AHpOoo_ea2Ck9WA7pR7rJvvN_A7TQtaRNQ/cb=gapi.loaded_0?le=scs" async=""></script><script language="javascript">
+        
+        var SITIO_HTTPS = "https://www.eticket.mx/";
+        var API_URL = "https://api.eticket.com.mx";
+        var API_CLIENT_ID = "3";
+        var API_CLIENT_SECRET = "1994be57f5c64940b6a6343c92f561ad";
+        
+        var _jsRedesRequeridas = [
+            'GOOGLE_PLUS_USER',
+            'FACEBOOK', 
+            'FACEBOOK_PIXEL',
+            'PINGDOM'
+        ];
+        
+        var _fbAppId = "132081130190180";
+        var _fbPageId = "124149289846";
+        var _fbPixelId = "1715855851983642";	
+        var _glClientId = "528578062252-boj0h449ffiileg1n259ahmbp372mtvk.apps.googleusercontent.com";
+        var _glPlusId = "111552151669111024504";	
+        var _glAnalyticsId = "G-X26GZEXWXF";
+        var _pingdomId = "527b1d69abe53dfd60000000";
+        var _glGAEventoId = "";
+        var _glAWConversionId = "";	
+        var _overrideGaTitle;
+        
+    </script>
+    
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="rating" content="general">
+    <meta name="copyright" content="2010, eticket">
+    <meta name="revisit-after" content="4 Days">
+    <meta name="expires" content="never">
+    <meta name="distribution" content="global">
+    <meta name="robots" content="index,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"0cc7dda359","applicationID":"146569105","transactionName":"ZVMBYxcCWhdTARJbWFwZImQ1TFkNURcDXENTaQZBAA1AC0FMB0FHSg==","queueTime":46,"applicationTime":154,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:false},ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VgYGVldVChABUFdXAQgGVlE=",licenseKey:"0cc7dda359",applicationID:"146569105"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(27),s={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,i.indexOf("dev")!==-1&&(s.dev=!0),i.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&o.on("internal-error",function(t){r(t.stack)}),s.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{p?p-=1:i(s||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:c.now();o("err",[t,n])}var o=t("handle"),a=t(28),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError";if(!c.disabled){var p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(10),t(9),"addEventListener"in window&&t(6),c.xhrWrappable&&t(11),d=!0)}s.on("fn-start",function(t,e,n){d&&(p+=1)}),s.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){o("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function i(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+l])try{window.performance[h](m,i,!1)}catch(t){}else try{window.performance[h]("webkit"+m,i,!1)}catch(t){}}function o(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(10),f=t(9),u=t(5),d=t(19),l="learResourceTimings",p="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",S=t("loader");if(!S.disabled){S.features.stn=!0,t(8),"addEventListener"in window&&t(6);var O=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof O&&(this.bstStart=S.now())}),a.on(b,function(t,e){var n=t[0];n instanceof O&&s("bst",[n,e,this.bstStart,S.now()])}),c.on(x,function(t,e,n){this.bstStart=S.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,S.now(),this.bstType])}),f.on(x,function(){this.bstStart=S.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,S.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=S.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):p in window.performance&&(window.performance["c"+l]?window.performance[p](m,i,d(!1)):window.performance[p]("webkit"+m,i,d(!1))),document[p]("scroll",o,d(!1)),document[p]("keypress",o,d(!1)),document[p]("click",o,d(!1))}}},{}],5:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){s.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return i.emit(n+"start",[t,a],s),s.then(function(t){return i.emit(n+"end",[null,t],s),t},function(t){throw i.emit(n+"end",[t],s),t})})}var i=t("ee").get("fetch"),o=t(28),a=t(27);e.exports=i;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(s,"fetch",c),i.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(c+"done",[null,e],n)}else i.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],10:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(c+u,r),o.on(s+u,i)},{}],11:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function o(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,S.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=t(19),p=NREUM.o,h=p.XHR,m=p.MO,v=p.PR,w=p.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,i,l(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,S=document.createTextNode(R);new m(a).observe(S,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],12:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&l())&&(w.traceContextParentHeader=i(h,m),w.traceContextStateHeader=o(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",s=1,c="",f="";return i+"@nr="+o+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(s.d.tk=o),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(24),h=t(14);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],13:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);return e.protocol&&"data"===e.protocol?void g("Ajax/DataUrl/Excluded"):void(e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this)))}}function i(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function o(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(14),f=t(12).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(20),m=t(18),v=t(15),w=t(19),g=t(21).recordSupportability,y=NREUM.o.REQ,x=window.XMLHttpRequest;a.features.xhr=!0,t(11),t(7),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){o(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<l;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof x&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof x&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},o=this.target;if("string"==typeof o?n=o:"object"==typeof o&&o instanceof y?n=o.url:window.URL&&"object"==typeof o&&o instanceof URL&&(n=o.href),i(this,n),"data"!==this.params.protocol){var s=(""+(o&&o instanceof y&&o.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}}),u.on("fetch-done",function(t,e){if(this.endTime=a.now(),this.params||(this.params={}),"data"===this.params.protocol)return void g("Ajax/DataUrl/Excluded");this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],14:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];if(0===(t||"").indexOf("data:"))return{protocol:"data"};var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||s),"/"===i.pathname&&(r[t]=i),i}},{}],15:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(18);e.exports=r},{}],16:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),o(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(27),s=t(28),c=t("ee").get("tracer"),f=t("loader"),u=t(21),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var l=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(l,function(t,e){d[e]=i(p,e,!0,"api")}),d.addPageAction=i(p,"addPageAction",!0),d.setCurrentRouteName=i(p,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),o("err",[t,f.now(),!1,e])}},{}],17:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],20:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],21:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[s,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:i}},{}],22:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,s=t(29);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],23:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?p("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&p("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;var i=[r],o=a({});o&&i.push(o),p("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||p("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function s(t){if(t instanceof w&&!y){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=h.now()?n.fid=h.now()-e:e>h.offset&&e<=Date.now()?(e-=h.offset,n.fid=h.now()-e):e=h.now(),y=!0,p("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=h.now(),p("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,d,l,p=t("handle"),h=t("loader"),m=t(26),v=t(19),w=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(g){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(g){}l=new PerformanceObserver(o);try{l.observe({type:"layout-shift",buffered:!0})}catch(g){}}if("addEventListener"in document){var y=!1,x=["click","keydown","mousedown","pointerdown","touchstart"];x.forEach(function(t){document.addEventListener(t,s,v(!1))})}m(c)}},{}],24:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<o.length;s++)i=o[s],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(t)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],25:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],26:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(19);e.exports=r;var o,a,s;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],27:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],28:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],29:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var s=e(i),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var l=d[y[n]];return l&&l.push([x,n,r,s]),s}}function o(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return l[t]=l[t]||i(n)}function w(t,e){p.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:o,addEventListener:o,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function o(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var c="nr@context",f=t("gos"),u=t(27),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!O++){var t=S.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+S.offset],null,"api"),s("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=p+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){s("mark",["domContent",a()+S.offset],null,"api")}var a=t(22),s=t("handle"),c=t(27),f=t("ee"),u=t(25),d=t(17),l=t(19),p=d.getConfiguration("ssl")===!1?"http":"https",h=window,m=h.document,v="addEventListener",w="attachEvent",g=h.XMLHttpRequest,y=g&&g.prototype,x=!1;NREUM.o={ST:setTimeout,SI:h.setImmediate,CT:clearTimeout,XHR:g,REQ:h.Request,EV:h.Event,PR:h.Promise,MO:h.MutationObserver};var b=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},R=g&&y&&y[v]&&!/CriOS/.test(navigator.userAgent),S=e.exports={offset:a.getLastTimestamp(),now:a,origin:b,features:{},xhrWrappable:R,userAgent:u,disabled:x};if(!x){t(16),t(23),m[v]?(m[v]("DOMContentLoaded",o,l(!1)),h[v]("load",r,l(!1))):(m[w]("onreadystatechange",i),h[w]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var O=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,c],u],t)}s(n+"start",[o,a,c],u,f);try{return l=e.apply(a,o)}catch(h){throw s(n+"err",[o,a,h],u,f),h}finally{s(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,i,c,o))}function s(n,r,o,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function s(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(28),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,13,4,3]);</script>
+    <meta property="fb:app_id" content="132081130190180">
+    
+    <!-- font y estilos principales-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="publisher" href="https://plus.google.com/111552151669111024504">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="styles/v-637898111497751016/dropkick_wp_custom.css" type="text/css" rel="stylesheet">
+    <link href="styles/v-637898111507774985/loader.css" rel="stylesheet" type="text/css">
+    <link href="styles/v-637898111502595074/icon-eticket.css" type="text/css" rel="stylesheet">
+    <link href="/styles/styles_v3.css" type="text/css" rel="stylesheet">
+    <link href="styles/v-637898111519812501/styles_v3_fondo.css" type="text/css" rel="stylesheet">
+    <link href="js/jconfirm/css/v-637898110475491284/jquery-confirm.min.css" type="text/css" rel="stylesheet">
+    
+    <script src="https://apis.google.com/js/platform.js" async="" defer="" gapi_processed="true"></script>
+    <script src="https://apis.google.com/js/api:client.js" gapi_processed="true"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-X26GZEXWXF"></script>
+    <script src="js/jconfirm/v-638260152547310689/jquery-confirm.min.js"></script>
+    <script src="js/dropkickjs/lib/v-637898110345961030/dropkick_wp.js"></script>
+    <script src="js/v-638078452997871936/jquery.cookies.js"></script>
+    <script src="js/v-638078452979279280/eticketjs.js"></script>
+    <script src="js/v-638078452976778594/eticket_util.js"></script>
+    <script src="js/v-638659960387193064/redes_gtag.js"></script>
+    <script src="js/v-638078453075225632/oauth.js"></script>
+    <script src="js/v-638078453069283467/micuenta_template.js"></script>
+    <script src="js/v-638343761734516141/campaignmonitor.js"></script>
+    
+    <!--Google Structured Data Attributes-->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://www.eticket.mx/",
+      "logo": "https://www.eticket.mx//images/eticket_mx.png",
+      "sameAs": [
+        "http://www.facebook.com/eticket",
+        "http://www.twitter.com/eticket",
+        "https://plus.google.com/111552151669111024504"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+           "telephone": "+52-442-223-04-23",
+        "contactType": "customer service"
+      }
+    }
+    </script>
+    
+    <!-- InstanceBeginEditable name="head" -->
+    
+    <style type="text/css">
+    .bloque_etiqueta_eventos{
+        width:140px
+    }
+    .PocketTicketTrigger .popover {
+        min-width: 400px !important;
+    }
+    .mayusculas{
+        text-transform:uppercase;
+    }
+    .minusculas{
+        text-transform:lowercase;
+    }
+    .botonStreaming,.botonAuditorio{
+        display:none;
+        margin:20px 0px;
+        padding: 15px;
+        max-width: 300px;
+        text-align: center;
+        border-radius: 2px;
+        background-color: #103363;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        text-shadow: 0px 0px 2px #aaa;
+    }
+    .botonStreaming.disabled{
+        background-color: #ccc;
+    }
+    .botonAuditorio.disabled{
+        background-color: #ccc;
+    }
+    .avisopendiente{
+        color:red;
+        margin:20px 0px;
+        font-weight:bold;
+    }
+    .avisodescarga{
+        color:red;
+        margin:20px 0px;
+        font-weight:bold;
+    }
+    .metodoEntregaDesc{
+        margin-top:-20px;
+        margin-bottom:10px;
+    }
+    .tituloEvento{
+        font-size:20px;
+        font-weight:bold;
+    }
+    .botonStreaming:hover{
+        background-color: #395E90;
+    }
+    .botonAuditorio:hover{
+        background-color: #395E90;
+    }
+    .tagTransferirFolio{
+        margin: 20px 0px 20px 0px;   
+    }
+    .formTransferencia{
+        max-width: 400px;
+        margin: 40px auto;
+    }
+    .borde_sencillo.formulario{
+        margin-bottom: 10px;
+    }
+    .electronicTicketList{
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .electronicTicket{
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 20px;
+        width: 150px;
+        max-width: 150px;
+        background-color: #bdd1f8;
+        /* border: 1px solid #fbc13a; */
+        margin: 10px 10px 0px 0px;
+        border-radius: 4px 4px 0px 0px;
+        text-align: center;
+        box-shadow: 2px 2px 2px 0px #bbb;
+        font-size: 13px;
+    }
+    .xferNombreDestinatario{
+        font-weight: bold;
+    }
+    
+    .lseccion,.lbloque{
+        padding: 0px 20px;
+    }
+    .lboleto{
+        margin: 3px 0px 12px 0px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .descarga{
+        cursor: pointer;
+        padding: 10px;
+        margin: 1px;
+        background-color: #e8f0ff;
+        min-height: 45px;
+        display: none;
+    }
+    .descarga.electronic, .descarga.printticket{
+        padding: 10px 0px; 
+    }
+    .descarga:hover{
+        background-color: #fff;
+    }
+    
+    #mdTransferTitulo{
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px 0px 20px 0px;
+    }
+    .mdTransferInstruccion{
+        margin:10px auto;
+    }
+    .mdTransferAlerta{
+        font-weight: bold;
+        color: #bf2121;
+        margin:10px auto;
+    }
+    .mdTransferNota{
+        margin:10px auto;
+        color: gray;
+    }
+    
+    /*Overlay spinner*/
+    #loadingoverlay {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+    }
+    
+    .cv-spinner {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px #ddd solid;
+        border-top: 4px #004466 solid;
+        border-radius: 50%;
+        animation: sp-anime 0.8s infinite linear;
+    }
+    
+    @keyframes sp-anime {
+        0% {
+            transform: rotate(0deg);
+        }
+    
+        100% {
+            transform: rotate(359deg);
+        }
+    }
+        
+    /*styles for divs timezones*/
+    .contenedorFechasInternacionales{
+        margin:20px 0px 10px 0px;
+    }
+    .item-date .date {
+        font-weight: bold;
+        border-bottom: solid 1px #aaa;
+        margin-bottom: 10px;
+        margin-top:25px;
+    }
+    .item-date .places {
+        font-size: 14px;
+    }
+    .item-date .places > p{
+        font-size: 14px;
+        line-height:18px;
+    }
+    .item-date .places > p > span.place-hour{
+        padding: 3px 6px;
+        background-color: #ccc;
+        border-radius: 7px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .link-button,
+    .link-button:hover{
+        background-color: #ccc;
+        font-weight: bold;
+    }
+    </style>
+    <!--Start Delivery-->
+    <script>
+        _siteLocation = 'mx';
+    </script>
+    <script language="javascript" src="js/validation/v-638234312593644787/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script><style>.swal2-popup.swal2-toast{box-sizing:border-box;grid-column:1/4 !important;grid-row:1/4 !important;grid-template-columns:min-content auto min-content;padding:1em;overflow-y:hidden;background:#fff;box-shadow:0 0 1px rgba(0,0,0,.075),0 1px 2px rgba(0,0,0,.075),1px 2px 4px rgba(0,0,0,.075),1px 3px 8px rgba(0,0,0,.075),2px 4px 16px rgba(0,0,0,.075);pointer-events:all}.swal2-popup.swal2-toast>*{grid-column:2}.swal2-popup.swal2-toast .swal2-title{margin:.5em 1em;padding:0;font-size:1em;text-align:initial}.swal2-popup.swal2-toast .swal2-loading{justify-content:center}.swal2-popup.swal2-toast .swal2-input{height:2em;margin:.5em;font-size:1em}.swal2-popup.swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{grid-column:3/3;grid-row:1/99;align-self:center;width:.8em;height:.8em;margin:0;font-size:2em}.swal2-popup.swal2-toast .swal2-html-container{margin:.5em 1em;padding:0;overflow:initial;font-size:1em;text-align:initial}.swal2-popup.swal2-toast .swal2-html-container:empty{padding:0}.swal2-popup.swal2-toast .swal2-loader{grid-column:1;grid-row:1/99;align-self:center;width:2em;height:2em;margin:.25em}.swal2-popup.swal2-toast .swal2-icon{grid-column:1;grid-row:1/99;align-self:center;width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-popup.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:bold}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{justify-content:flex-start;height:auto;margin:0;margin-top:.5em;padding:0 .5em}.swal2-popup.swal2-toast .swal2-styled{margin:.25em .5em;padding:.4em .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.8em;left:-0.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-toast-animate-success-line-tip .75s}.swal2-popup.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-toast-animate-success-line-long .75s}.swal2-popup.swal2-toast.swal2-show{animation:swal2-toast-show .5s}.swal2-popup.swal2-toast.swal2-hide{animation:swal2-toast-hide .1s forwards}div:where(.swal2-container){display:grid;position:fixed;z-index:1060;inset:0;box-sizing:border-box;grid-template-areas:"top-start     top            top-end" "center-start  center         center-end" "bottom-start  bottom-center  bottom-end";grid-template-rows:minmax(min-content, auto) minmax(min-content, auto) minmax(min-content, auto);height:100%;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}div:where(.swal2-container).swal2-backdrop-show,div:where(.swal2-container).swal2-noanimation{background:rgba(0,0,0,.4)}div:where(.swal2-container).swal2-backdrop-hide{background:rgba(0,0,0,0) !important}div:where(.swal2-container).swal2-top-start,div:where(.swal2-container).swal2-center-start,div:where(.swal2-container).swal2-bottom-start{grid-template-columns:minmax(0, 1fr) auto auto}div:where(.swal2-container).swal2-top,div:where(.swal2-container).swal2-center,div:where(.swal2-container).swal2-bottom{grid-template-columns:auto minmax(0, 1fr) auto}div:where(.swal2-container).swal2-top-end,div:where(.swal2-container).swal2-center-end,div:where(.swal2-container).swal2-bottom-end{grid-template-columns:auto auto minmax(0, 1fr)}div:where(.swal2-container).swal2-top-start>.swal2-popup{align-self:start}div:where(.swal2-container).swal2-top>.swal2-popup{grid-column:2;place-self:start center}div:where(.swal2-container).swal2-top-end>.swal2-popup,div:where(.swal2-container).swal2-top-right>.swal2-popup{grid-column:3;place-self:start end}div:where(.swal2-container).swal2-center-start>.swal2-popup,div:where(.swal2-container).swal2-center-left>.swal2-popup{grid-row:2;align-self:center}div:where(.swal2-container).swal2-center>.swal2-popup{grid-column:2;grid-row:2;place-self:center center}div:where(.swal2-container).swal2-center-end>.swal2-popup,div:where(.swal2-container).swal2-center-right>.swal2-popup{grid-column:3;grid-row:2;place-self:center end}div:where(.swal2-container).swal2-bottom-start>.swal2-popup,div:where(.swal2-container).swal2-bottom-left>.swal2-popup{grid-column:1;grid-row:3;align-self:end}div:where(.swal2-container).swal2-bottom>.swal2-popup{grid-column:2;grid-row:3;place-self:end center}div:where(.swal2-container).swal2-bottom-end>.swal2-popup,div:where(.swal2-container).swal2-bottom-right>.swal2-popup{grid-column:3;grid-row:3;place-self:end end}div:where(.swal2-container).swal2-grow-row>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-column:1/4;width:100%}div:where(.swal2-container).swal2-grow-column>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-row:1/4;align-self:stretch}div:where(.swal2-container).swal2-no-transition{transition:none !important}div:where(.swal2-container) div:where(.swal2-popup){display:none;position:relative;box-sizing:border-box;grid-template-columns:minmax(0, 100%);width:32em;max-width:100%;padding:0 0 1.25em;border:none;border-radius:5px;background:#fff;color:hsl(0,0%,33%);font-family:inherit;font-size:1rem}div:where(.swal2-container) div:where(.swal2-popup):focus{outline:none}div:where(.swal2-container) div:where(.swal2-popup).swal2-loading{overflow-y:hidden}div:where(.swal2-container) h2:where(.swal2-title){position:relative;max-width:100%;margin:0;padding:.8em 1em 0;color:inherit;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}div:where(.swal2-container) div:where(.swal2-actions){display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:auto;margin:1.25em auto 0;padding:0}div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))}div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))}div:where(.swal2-container) div:where(.swal2-loader){display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 rgba(0,0,0,0) #2778c4 rgba(0,0,0,0)}div:where(.swal2-container) button:where(.swal2-styled){margin:.3125em;padding:.625em 1.1em;transition:box-shadow .1s;box-shadow:0 0 0 3px rgba(0,0,0,0);font-weight:500}div:where(.swal2-container) button:where(.swal2-styled):not([disabled]){cursor:pointer}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm){border:0;border-radius:.25em;background:initial;background-color:#7066e0;color:#fff;font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):focus-visible{box-shadow:0 0 0 3px rgba(112,102,224,.5)}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny){border:0;border-radius:.25em;background:initial;background-color:#dc3741;color:#fff;font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny):focus-visible{box-shadow:0 0 0 3px rgba(220,55,65,.5)}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel){border:0;border-radius:.25em;background:initial;background-color:#6e7881;color:#fff;font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel):focus-visible{box-shadow:0 0 0 3px rgba(110,120,129,.5)}div:where(.swal2-container) button:where(.swal2-styled).swal2-default-outline:focus-visible{box-shadow:0 0 0 3px rgba(100,150,200,.5)}div:where(.swal2-container) button:where(.swal2-styled):focus-visible{outline:none}div:where(.swal2-container) button:where(.swal2-styled)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-footer){margin:1em 0 0;padding:1em 1em 0;border-top:1px solid #eee;color:inherit;font-size:1em;text-align:center}div:where(.swal2-container) .swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;grid-column:auto !important;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}div:where(.swal2-container) div:where(.swal2-timer-progress-bar){width:100%;height:.25em;background:rgba(0,0,0,.2)}div:where(.swal2-container) img:where(.swal2-image){max-width:100%;margin:2em auto 1em}div:where(.swal2-container) button:where(.swal2-close){z-index:2;align-items:center;justify-content:center;width:1.2em;height:1.2em;margin-top:0;margin-right:0;margin-bottom:-1.2em;padding:0;overflow:hidden;transition:color .1s,box-shadow .1s;border:none;border-radius:5px;background:rgba(0,0,0,0);color:#ccc;font-family:monospace;font-size:2.5em;cursor:pointer;justify-self:end}div:where(.swal2-container) button:where(.swal2-close):hover{transform:none;background:rgba(0,0,0,0);color:#f27474}div:where(.swal2-container) button:where(.swal2-close):focus-visible{outline:none;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}div:where(.swal2-container) button:where(.swal2-close)::-moz-focus-inner{border:0}div:where(.swal2-container) .swal2-html-container{z-index:1;justify-content:center;margin:0;padding:1em 1.6em .3em;overflow:auto;color:inherit;font-size:1.125em;font-weight:normal;line-height:normal;text-align:center;word-wrap:break-word;word-break:break-word}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea),div:where(.swal2-container) select:where(.swal2-select),div:where(.swal2-container) div:where(.swal2-radio),div:where(.swal2-container) label:where(.swal2-checkbox){margin:1em 2em 3px}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea){box-sizing:border-box;width:auto;transition:border-color .1s,box-shadow .1s;border:1px solid hsl(0,0%,85%);border-radius:.1875em;background:rgba(0,0,0,0);box-shadow:inset 0 1px 1px rgba(0,0,0,.06),0 0 0 3px rgba(0,0,0,0);color:inherit;font-size:1.125em}div:where(.swal2-container) input:where(.swal2-input).swal2-inputerror,div:where(.swal2-container) input:where(.swal2-file).swal2-inputerror,div:where(.swal2-container) textarea:where(.swal2-textarea).swal2-inputerror{border-color:#f27474 !important;box-shadow:0 0 2px #f27474 !important}div:where(.swal2-container) input:where(.swal2-input):focus,div:where(.swal2-container) input:where(.swal2-file):focus,div:where(.swal2-container) textarea:where(.swal2-textarea):focus{border:1px solid #b4dbed;outline:none;box-shadow:inset 0 1px 1px rgba(0,0,0,.06),0 0 0 3px rgba(100,150,200,.5)}div:where(.swal2-container) input:where(.swal2-input)::placeholder,div:where(.swal2-container) input:where(.swal2-file)::placeholder,div:where(.swal2-container) textarea:where(.swal2-textarea)::placeholder{color:#ccc}div:where(.swal2-container) .swal2-range{margin:1em 2em 3px;background:#fff}div:where(.swal2-container) .swal2-range input{width:80%}div:where(.swal2-container) .swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}div:where(.swal2-container) .swal2-range input,div:where(.swal2-container) .swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}div:where(.swal2-container) .swal2-input{height:2.625em;padding:0 .75em}div:where(.swal2-container) .swal2-file{width:75%;margin-right:auto;margin-left:auto;background:rgba(0,0,0,0);font-size:1.125em}div:where(.swal2-container) .swal2-textarea{height:6.75em;padding:.75em}div:where(.swal2-container) .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:rgba(0,0,0,0);color:inherit;font-size:1.125em}div:where(.swal2-container) .swal2-radio,div:where(.swal2-container) .swal2-checkbox{align-items:center;justify-content:center;background:#fff;color:inherit}div:where(.swal2-container) .swal2-radio label,div:where(.swal2-container) .swal2-checkbox label{margin:0 .6em;font-size:1.125em}div:where(.swal2-container) .swal2-radio input,div:where(.swal2-container) .swal2-checkbox input{flex-shrink:0;margin:0 .4em}div:where(.swal2-container) label:where(.swal2-input-label){display:flex;justify-content:center;margin:1em auto 0}div:where(.swal2-container) div:where(.swal2-validation-message){align-items:center;justify-content:center;margin:1em 0 0;padding:.625em;overflow:hidden;background:hsl(0,0%,94%);color:#666;font-size:1em;font-weight:300}div:where(.swal2-container) div:where(.swal2-validation-message)::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}div:where(.swal2-container) .swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:1.25em auto;padding:0;background:rgba(0,0,0,0);font-weight:600}div:where(.swal2-container) .swal2-progress-steps li{display:inline-block;position:relative}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}div:where(.swal2-icon){position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:2.5em auto .6em;border:0.25em solid rgba(0,0,0,0);border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;user-select:none}div:where(.swal2-icon) .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}div:where(.swal2-icon).swal2-error{border-color:#f27474;color:#f27474}div:where(.swal2-icon).swal2-error .swal2-x-mark{position:relative;flex-grow:1}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-error.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-error.swal2-icon-show .swal2-x-mark{animation:swal2-animate-error-x-mark .5s}div:where(.swal2-icon).swal2-warning{border-color:rgb(249.95234375,205.965625,167.74765625);color:#f8bb86}div:where(.swal2-icon).swal2-warning.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-warning.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .5s}div:where(.swal2-icon).swal2-info{border-color:rgb(156.7033492823,224.2822966507,246.2966507177);color:#3fc3ee}div:where(.swal2-icon).swal2-info.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-info.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .8s}div:where(.swal2-icon).swal2-question{border-color:rgb(200.8064516129,217.9677419355,225.1935483871);color:#87adbd}div:where(.swal2-icon).swal2-question.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-question.swal2-icon-show .swal2-icon-content{animation:swal2-animate-question-mark .8s}div:where(.swal2-icon).swal2-success{border-color:#a5dc86;color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;border-radius:50%}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}div:where(.swal2-icon).swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-0.25em;left:-0.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}div:where(.swal2-icon).swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-animate-success-line-tip .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-animate-success-line-long .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-circular-line-right{animation:swal2-rotate-success-circular-line 4.25s ease-in}[class^=swal2]{-webkit-tap-highlight-color:rgba(0,0,0,0)}.swal2-show{animation:swal2-show .3s}.swal2-hide{animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{margin-right:initial;margin-left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}@keyframes swal2-toast-show{0%{transform:translateY(-0.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(0.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0deg)}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-0.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes swal2-show{0%{transform:scale(0.7)}45%{transform:scale(1.05)}80%{transform:scale(0.95)}100%{transform:scale(1)}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(0.5);opacity:0}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-0.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(0.4);opacity:0}50%{margin-top:1.625em;transform:scale(0.4);opacity:0}80%{margin-top:-0.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0deg);opacity:1}}@keyframes swal2-rotate-loading{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes swal2-animate-question-mark{0%{transform:rotateY(-360deg)}100%{transform:rotateY(0)}}@keyframes swal2-animate-i-mark{0%{transform:rotateZ(45deg);opacity:0}25%{transform:rotateZ(-25deg);opacity:.4}50%{transform:rotateZ(15deg);opacity:.8}75%{transform:rotateZ(-5deg);opacity:1}100%{transform:rotateX(0);opacity:1}}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto !important}body.swal2-no-backdrop .swal2-container{background-color:rgba(0,0,0,0) !important;pointer-events:none}body.swal2-no-backdrop .swal2-container .swal2-popup{pointer-events:all}body.swal2-no-backdrop .swal2-container .swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}@media print{body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow-y:scroll !important}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) .swal2-container{position:static !important}}body.swal2-toast-shown .swal2-container{box-sizing:border-box;width:360px;max-width:100%;background-color:rgba(0,0,0,0);pointer-events:none}body.swal2-toast-shown .swal2-container.swal2-top{inset:0 auto auto 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{inset:0 0 auto auto}body.swal2-toast-shown .swal2-container.swal2-top-start,body.swal2-toast-shown .swal2-container.swal2-top-left{inset:0 auto auto 0}body.swal2-toast-shown .swal2-container.swal2-center-start,body.swal2-toast-shown .swal2-container.swal2-center-left{inset:50% auto auto 0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{inset:50% auto auto 50%;transform:translate(-50%, -50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{inset:50% 0 auto auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-start,body.swal2-toast-shown .swal2-container.swal2-bottom-left{inset:auto auto 0 0}body.swal2-toast-shown .swal2-container.swal2-bottom{inset:auto auto 0 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{inset:auto 0 0 auto}</style>
+    <script src="/js/helpers/v-638343930822119156/httpHelper.js"></script>
+    <script language="javascript" src="js/v-638367989038291055/delivery.js"></script>
+    <!-- End Delivery-->
+    <!--File Saver-->
+    <script src="js/filesaverjs/v-637898110016774247/filesaver.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment-timezone-with-data.min.js"></script>
+    <script type="text/javascript" src="js/v-638078452976778594/eticket_util.js"></script>
+    <script src="js/v-638478493931198692/micuenta_eventos2.js"></script>
+    <script src="js/v-504911232000000000/micuenta_delivery.js"></script>
+    <link href="styles/jalert/v-637898111546066485/jalert.css" type="text/css" rel="stylesheet">	
+    <script src="js/jalert/v-638260152544498436/jalert.js"></script>
+    
+    <script type="text/javascript">
+    
+        USER_TOKEN = "kqbABuRTFhuEcpCJC_JATf7BfinUEpBFoQ6h6W8SSFMeL4XXFLYjviCnEG2cI6JhNfupdLI8PrWbfbfrs23cejOZUieml6lLTmCjYs6p7YrCsVfxipWOhsSGMc48Jn2rf23l6fHmNocDZSYDFU48i8__C2ig5cbjA0UhmFvXxvN020AAwyKZS-ga1-beMqqB4M3OnjxO93emQQ3LcUTcIj5vcawiqeEJpoRowPm_BzAH16xBfGvxllA33TNRJgUnSsnS7q0cthWpBZKjLBipw0It3n8mOmNrdS-31K4zf6mCl9_O3wj-XT0_ceukhUynp9hOTNyhOUnqWnYaA3mkh5BT2Uw";
+        _STREAMING_URL = "https://streamingwamx.azurewebsites.net";
+        _GUEST_TOKEN = getGuestToken();
+    
+        var _idVentaEnc;
+        const _appAndroidDownloadUrl = '';
+        const _appIosDownloadUrl = '';
+    
+    </script>
+    
+    <!-- InstanceEndEditable -->
+    
+    </head>
+    
+    <body lang="es-mx" style="margin:0px" class="loaded">
+    
+        <div style="width:100%; text-align:center">
+            <div id="copete" style="width:100%; text-align:center" class="azulfondo">
+                <div id="Copete_container" class="ancholimitado" style="text-align:center">
+                    <div class="tb" style="width:100%;">
+                        <div class="row">
+                            <div id="logotipo" style="vertical-align:middle;">
+                                <div style="position: relative; min-height: 120px; overflow: hidden;">
+                                    <a href="https://www.eticket.mx/home.aspx"><img src="images/webpage/copete/logoplecabigmosaico_mx.png" alt="Venta de boletos en eticket" class="logotipo_principal" border="0"></a>
+                                </div>
+                            </div>
+                            <div id="buscador" style="vertical-align:middle;">
+                                <div style="min-width: 320px; margin:0px auto" class="font22 blanco boldear">
+                                    Mi Cuenta : eticket
+                                  </div>
+                            </div>
+                            <div id="micuenta_iniciasesion" style="vertical-align:middle; min-width:220px; padding:0px 5px">
+                            
+                            
+                            <!-- inicia: YA CON login-->
+                                <div id="menu_micuenta" class="wrapper-dropdown-5 font14" tabindex="1" style="text-align:center;  z-index:30">
+                                    <!--el nombre no debe exceder 25 caracteres-->
+                                    Diego&nbsp;HERNÁNDEZ
+                                    <i class="icon-lock"></i>
+                                    <ul class="dropdown_micuenta">
+                                        <li><a href="/micuenta_eventos.aspx"><i class="icon-eventos" style="margin-right: 10px;"></i>Mis Eventos</a></li>
+                                        <li><a href="/micuenta_datos.aspx"><i class="icon-informacion" style="margin-right: 10px;"></i>Mi Información</a></li>
+                                        <li><a href="/micuenta_tarjetas.aspx"><i class="icon-tarjetas" style="margin-right: 10px;"></i>Mis Tarjetas de Crédito</a></li>
+                                        <li><a href="/micuenta_historico.aspx"><i class="icon-historial" style="margin-right: 10px;"></i>Mi Historial</a></li>
+                                        <li><a href="/micuenta_boletines.aspx"><i class="icon-subscripcion" style="margin-right: 10px;"></i>Mi suscripción</a></li>
+                                        <li><a href="/micuenta_registros.aspx"><i class="icon-registros" style="margin-right: 10px;"></i>Mis Registros</a></li>
+                                        
+                                        <li><a href="/micuenta_logout.aspx"><i class="icon-sesion" style="margin-right: 10px;"></i>Cerrar Sesión</a></li>
+                                    </ul>
+                                </div>   
+                            <!-- termina: YA CON login -->
+                            
+                            
+                            </div>
+                        </div>
+                    </div>                                            
+                </div>
+            </div>  
+            <div id="MenuPrincipal" style="width:100%; text-align:center; position:relative; z-index:20" class="azulmarinofondo">     
+                <div class="ancholimitado font14" style="text-align:center; min-height:20px">
+                &nbsp;
+                </div>                    
+            </div>   
+            <div class="grismuyclarofondo" style="width:100%">
+                <div class="ancholimitado" style="padding:10px 0px">
+                    <div class="tb" style="width:100%; text-align:center">
+                        <div class="row">
+                            
+                            <div id="menu_micuenta_izq" class="col" style="width:246px; vertical-align:top;"> <!--era 216 pero con el padding de 20px y el margin de 10px lo deje en 246-->
+                            
+                                <!--incia MI PERFIL-->
+                                <div class="agregafoto espacio_izq_margen_fondo_blanco" align="center" style=" display:none">
+                                    <div class="agregafoto font14 gris" onclick="gtag('event', 'page_view', {'page_path': '/VP_agregafoto.aspx', 'page_title': 'Agrega tu fotografía'});" style="padding: 10px 20px;">
+                                        <img src="https://cdn.eticket.mx/imagenes/usuarios/agregafoto.png" border="0" class="fotoperfil" style="display:none">
+                                    </div>
+                                </div>     
+                                <!--termina MI PERFIL-->
+                                
+                                <!--incia menu mi cuenta-->
+                                <div class="espacio_izq_margen_fondo_blanco izquierdaText">
+                                    <div class="font16 boldear700" style="margin-bottom:10px">
+                                        <div id="MisEventos_menu" class="MenuMiCuenta borde_sencillo_bottom MenuMiCuenta_seleccionado" onclick="document.location.href='https://www.eticket.mx/micuenta_eventos.aspx';" style="cursor:pointer"><i class="icon-eventos" style="margin-right: 10px;"></i>Mis Eventos</div>
+                                        <div id="MiInformacion_menu" class="MenuMiCuenta borde_sencillo_bottom" onclick="document.location.href='https://www.eticket.mx/micuenta_datos.aspx';" style="cursor:pointer"><i class="icon-informacion" style="margin-right: 10px;"></i>Mi Información</div>
+                                        <div id="MisTarjetas_menu" class="MenuMiCuenta borde_sencillo_bottom" onclick="document.location.href='https://www.eticket.mx/micuenta_tarjetas.aspx';" style="cursor:pointer"><i class="icon-tarjetas" style="margin-right: 10px;"></i>Mis Tarjetas</div>
+                                        <div id="MiHistorial_menu" class="MenuMiCuenta borde_sencillo_bottom" onclick="document.location.href='https://www.eticket.mx/micuenta_historico.aspx';" style="cursor:pointer"><i class="icon-historial" style="margin-right: 10px;"></i>Mi Historial</div>
+                                        <div id="MiSubscripcion_menu" class="MenuMiCuenta borde_sencillo_bottom" onclick="document.location.href='https://www.eticket.mx/micuenta_boletines.aspx';" style="cursor:pointer"><i class="icon-subscripcion" style="margin-right: 10px;"></i>Mi suscripción</div>
+                                        <div id="MisRegistros_menu" class="MenuMiCuenta borde_sencillo_bottom" onclick="document.location.href='https://www.eticket.mx/micuenta_registros.aspx';" style="cursor:pointer"><i class="icon-registros" style="margin-right: 10px;"></i>Mis Registros</div>
+                                        
+                                        <div id="MisRegistros_menu" class="MenuMiCuenta borde_sencillo_bottom" onclick="document.location.href='https://www.eticket.mx/micuenta_logout.aspx';" style="cursor:pointer"><i class="icon-sesion" style="margin-right: 10px;"></i>Cerrar Sesión</div>
+                                    </div>
+                                </div>     
+                                <!--termina menu mi cuenta-->
+                            
+                            </div>   
+                                                                             
+                            <div class="col" style="vertical-align:top;">
+                            
+                                <div id="contenedor_principal">
+                                    <!-- InstanceBeginEditable name="contenido" -->
+                                    <!-- inicia contenido principal-->  
+    
+                                    <div id="titulo_micuenta" class="blancofondo grisoscuro font22 centrarTexto boldear" style="padding:10px 0px">
+                                        Bienvenido: <span style="text-transform:capitalize">Diego Hernández</span>
+                                    </div>
+                                    
+                                    <div class="font16 boldear600 blanco azulfondo" style="padding:5px 7px; margin:10px 0px 0px 0px">
+                                        Mis eventos
+                                    </div>
+                                    <div class="azulmarinofondo blanco font14" style="padding:5px 7px; width:100%">
+                                        Aqui encontrarás los boletos para tus próximos eventos                     
+                                    </div>
+                
+                                    <!--CONTENIDOS-->
+                                    <a id="target" style="display:none"></a>
+            
+                                    
+                                    
+                                    
+    
+                                    <div id="templateElectronicTicket" style="display:flex">
+                                        <div class="electronicTicket">
+                                            <div>
+                                                <div class="lseccion">VIVIR ES INCREÍBLE</div>
+                                                <div class="lbloque">A1</div>
+                                                <div class="lboleto">ASIENTO 1-36</div> 
+                                            </div>
+                                            
+                                            <div class="descarga printticket" style="display:flex; justify-content: center;align-items: center;">
+                                                <div>
+                                                    
+                                                    
+                                                    <div style="display:inline-block"><img src="images/webpage/micuenta/electronic_Ticket3.svg" style="width:100px"></div>
+                                            
+                                                    
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- <div class="descarga passbook">
+                                                <div><img src="images/webpage/electronicticket/applewallet.png" style="width:100px"></div>
+                                            </div>
+                                            <div class="descarga gpass">
+                                                <div><img src="images/webpage/electronicticket/gpay.png" style="width:40px"></div>
+                                            </div>
+                                             -->
+                                            <div class="descarga electronic">
+                                                <div><img src="images/webpage/micuenta/electronic_Ticket3.svg" style="width:100px"></div>
+                                            </div>
+    
+                                            <div class="descarga mobileapp android">
+                                                <div><img src="images/webpage/micuenta/download_google_app.svg" style="width:100px"></div>
+                                            </div>
+    
+                                            <div class="descarga mobileapp iphone">
+                                                <div><img src="images/webpage/micuenta/download_apple_app.svg" style="width:100px"></div>
+                                            </div>
+    
+                                            <div class="descarga transferir" style="display:flex; justify-content: center;align-items: center;">
+                                                
+                                                <div class="xfer0" style="display:flex">
+                                                    🎁 <span><b>Transferir</b></span>
+                                                </div>
+    
+                                                <div class="xfer1" style="display:none">
+                                                    <!--&#x27a1;&nbsp;-->Solicitaste transferir este boleto a <span class="xferNombreDestinatario"></span>
+                                                </div>
+                                                <div class="xfer2" style="display:none">
+                                                     Este boleto fue transferido a <span class="xferNombreDestinatario"></span>.
+                                                </div>
+                                                <div class="xfer3" style="display:none">
+                                                    🎁 <b><span class="xferNombreOrigen"></span></b> te envió este boleto.
+                                                </div>
+                                            </div>
+                                            <div class="lidboleto"></div>
+                                        </div>
+                                         
+                                        
+
+
+
+
+                                    </div>
+    
+                                    <div id="mdTransferirBoleto" class="modal" role="dialog" data-bs-backdrop="static">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                 <!-- Begin overlay-->
+                                                  <div id="loadingoverlay"> 
+                                                    <div class="cv-spinner">
+                                                        <span class="spinner"></span>
+                                                    </div>
+                                                </div>
+                                                <!--End overlay-->
+                                                <!--
+                                                <div class="modal-header">
+                                                    <button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    <h4 class="modal-title"><b>Transferir Boleto<span class="tagBoleto">00000</span></b></h4>
+                                                </div>           
+                                                -->                 
+                                                <div class="modal-body" style="text-align:left">
+                                                <div style="padding:0px 20px">
+                                                    
+                                                    <div id="mdTransferTitulo"> ¿Deseas transferir  los boletos seleccionados a otra persona? </div>
+                                                    <div>
+                                                        
+                                                        <div class="mdTransferInstruccion">👉 Ingresa el correo electrónico y nombre completo de la persona a quien deseas transferir este boleto.
+                                                        El destinatario recibirá un correo electrónico con las instrucciones para obtener el boleto.</div>
+                                                        
+                                                    </div>
+                                                    <div class="formTransferencia"> 
+                                                        <div class="borde_sencillo formulario">
+                                                            <label>
+                                                                <div class="col blancofondo iconos_formularios">
+                                                                    <i class="icon-user"></i>
+                                                                </div>
+                                                                <div class="col ancho_100 alinearenmedio">
+                                                                    <input name="tNombreTransferencia" type="text" maxlength="255" id="tNombreTransferencia" class="formulario tNombreTransferencia" placeholder="Nombre completo del destinatario...">                             
+                                                                </div>                                         
+                                                            </label>                                        
+                                                        </div>
+                                                        <div class="borde_sencillo formulario">
+                                                            <label>
+                                                                <div class="col blancofondo iconos_formularios">
+                                                                    <i class="icon-mail"></i>
+                                                                </div>
+                                                                <div class="col ancho_100 alinearenmedio">
+                                                                    <input name="tEmailTransferencia" type="email" maxlength="255" id="tEmailTransferencia" class="nospaces formulario minusculas tEmailTransferencia" placeholder="Correo electrónico del destinatario...">                             
+                                                                </div>
+                                                            </label>                                        
+                                                        </div>
+                                                        <div class="borde_sencillo formulario">
+                                                            <label>
+                                                                <div class="col blancofondo iconos_formularios">
+                                                                    <i class="icon-mail"></i>
+                                                                </div>
+                                                                <div class="col ancho_100 alinearenmedio">
+                                                                    <input name="tEmailTransferencia2" type="email" maxlength="255" id="tEmailTransferencia2" class="nospaces formulario minusculas tEmailTransferencia2" placeholder="Confirma el correo electrónico...">                             
+                                                                </div>
+                                                            </label>                                        
+                                                        </div>
+                                                        <div class="borde_sencillo formulario">
+                                                            <label>
+                                                                <div class="col blancofondo iconos_formularios">
+                                                                    <i class="icon-mail"></i>
+                                                                </div>
+                                                                <div class="col ancho_100 alinearenmedio">
+                                                                    <input name="tClaveTransferencia" maxlength="10" id="tClaveTransferencia" class="nospaces formulario minusculas tClaveTransferencia" placeholder="Código de verificación..." style="width:50%">
+                                                                    <span style="float:right; margin: 2px 14px 1px 0px;">
+                                                                    <a href="#" class="lnkEnviarCodigo btn btn-sm link-button">GENERAR CODIGO</a>
+                                                                    </span>                             
+                                                                </div>
+                                                            </label>                                        
+                                                        </div>
+                                                    </div>
+    
+                                                    <div>
+                                                        <div class="mdTransferAlerta">IMPORTANTE: Una vez realizada la transferencia, ESTA NO PODRÁ ANULARSE, ya que los boletos pasan a ser propiedad del usuario al que fueron transferidos. </div>
+                                                        
+                                                        <div class="mdTransferNota">Cualquier copia que hayas descargado previamente en formato electrónico, incluyendo Print-Ticket, Apple Wallet o Google Pass, perderán su validéz.</div>
+                                                   
+                                                    </div>
+    
+                                                    <!--
+                                                    <div style="margin:10px 30px;">
+                                                    <input type="checkbox" id="chkTransferirTodos" name="chkTransferirTodos"><label for="chkTransferirTodos">
+                                                    Deseo transferir a esta persona <b>todos</b> los boletos disponibles de este folio. Si seleccionas esta opcion, todos los boletos disponibles en este folio serán transferidos y no podrás utilizarlos.</label>
+                                                    </div>
+                                                    -->
+                                                    <!--Start Validation-->
+                                                    <div style="max-width:400px; margin:0px auto; border-collapse:separate; text-align:left">
+                                                        <div id="messagevalidation" class="alert alert-danger font14 boldear" style="margin-top: 20px; display: none;">
+                                                            <ul></ul>
+                                                        </div>
+                                                    </div>
+                                                    <!--End Validatino-->
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="goButton_orange" data-bs-dismiss="modal">Cancelar</button>         
+                                                    <button type="button" class="goButton bTransferir">Transferir</button>                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div id="mdDetallesPickup" class="etktextpopup modal fade" data-idtexto="detallespickup" role="dialog">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <button type="button" class="close ms-0 data-bs-dismiss=" modal"="">×</button>
+                                                    <h4 class="modal-title">Método de Entrega: PICK-UP</h4>
+                                                  </div>                            
+                                                <div class="modal-body"></div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="goButton" data-bs-dismiss="modal">Cerrar</button>                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="mdDetallesElectronicTicket" class="etktextpopup modal fade" data-idtexto="detalleselectronicticket" role="dialog">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <button type="button" class="close ms-0 data-bs-dismiss=" modal"="">×</button>
+                                                    <h4 class="modal-title">Método de Entrega: ELECTRONIC-TICKET</h4>
+                                                  </div>                            
+                                                <div class="modal-body"></div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="goButton" data-bs-dismiss="modal">Cerrar</button>                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div id="mdReenviarPocketTicket" class="etktextpopup modal fade" role="dialog" data-bs-backdrop="static">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <button type="button" class="close ms-0 data-bs-dismiss=" modal"="">×</button>
+                                                    <h4 class="modal-title">Reenvío: ELECTRONIC-TICKET (POCKET-TICKET)</h4>
+                                                  </div>                            
+                                                <div class="modal-body"></div>
+                                                <!--
+                                                <div class="modal-footer">
+                                                    <button type="button" class="goButton" data-bs-dismiss="modal">Cerrar</button>                         
+                                                </div>
+                                                -->
+                                            </div>
+                                        </div>
+                                    </div>       
+                                                                    
+                                    <!-- termina contenido principal-->  
+                                    <!-- InstanceEndEditable -->  
+                                </div>
+                                
+                                 <!-- MODAL PARA FOTO -->
+                                 <div id="mdFotoPerfil" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                              <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">×</button>
+                                                <h4 class="modal-title">Foto de Perfil</h4>
+                                              </div>                            
+                                            <div class="modal-body"></div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="goButton" data-dismiss="modal">Cerrar</button>                         
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                            
+                        </div>
+                    </div>                        
+                </div>
+            </div> 
+           <!-- Inicia div Seccion footer-->
+            <div id="piepagina">
+            
+                <div align="center">                    
+                    <div class="azulbotonfondo" style="width:100%; text-align:center;" align="center"> <!-- este ponlo al 100% si quieres que la tabla sea de extremo a extremo  ó al max-width:1200px -->
+                        <img src="images/spacer.gif" height="1px">
+                    </div>
+                </div>                                              
+                
+                <div style="width:100%" class="negrofondo">
+                    <img src="images/spacer.gif" width="1" height="10">
+                </div>    
+                
+                <div class="grisoscurofondo" style="width:100%" align="center">
+                    
+                    <div style="text-align:left; min-width:320px; max-width:1200px; width:100%; vertical-align:top;" class="font14">
+                      <!-- los comentarios se dejan para que tomar el ancho completo: http://stackoverflow.com/questions/18262300/two-inline-block-elements-each-50-wide-do-not-fit-side-by-side-in-a-single-ro --->
+                        <div id="pie_columna_1">
+                            <div><a href="https://www.eticket.mx/home.aspx" class="URLBLANCA" style="display:block">Inicio</a></div>
+                            <div><a href="https://www.eticket.mx/eventos.aspx?categoria=1" class="URLBLANCA" style="display:block">Conciertos</a></div>
+                            <div><a href="https://www.eticket.mx/eventos.aspx?categoria=3" class="URLBLANCA" style="display:block">Deportes</a></div>
+                            <div><a href="https://www.eticket.mx/eventos.aspx?categoria=2" class="URLBLANCA" style="display:block">Teatro</a></div>
+                            <div><a href="https://www.eticket.mx/eventos.aspx?categoria=4" class="URLBLANCA" style="display:block">Culturales</a></div>
+                            <div><a href="https://www.eticket.mx/eventos.aspx?categoria=8" class="URLBLANCA" style="display:block">Comedia</a></div>
+                            <div><a href="https://www.eticket.mx/eventos.aspx?categoria=5" class="URLBLANCA" style="display:block">Familiares</a></div>
+                            <div><a href="https://www.eticket.mx/eventos.aspx?categoria=6" class="URLBLANCA" style="display:block">Congresos</a></div>
+                            <div><a href="https://www.eticket.mx/eventos.aspx?categoria=7" class="URLBLANCA" style="display:block">Festivales</a></div>      
+                        </div><!--
+                     --><div id="pie_columna_2">
+                            <div><a href="https://www.eticket.mx/contenido.aspx?id=5" class="URLBLANCA">¡Recoge tus boletos!</a></div> 
+                            <div><a href="https://www.eticket.mx/dondecomprar.aspx" class="URLBLANCA"> Ubicación de Puntos de venta</a></div> 
+                            
+                            <div><a href="https://www.eticket.mx/bolsadetrabajo.aspx" class="URLBLANCA">Bolsa de Trabajo</a></div> 
+                             
+                            <div><a href="https://www.eticket.mx/suscribete.aspx" class="URLBLANCA">Suscríbete al boletín</a></div>
+                            <div><a href="https://www.eticket.mx/promociones.aspx" class="URLBLANCA">Promociones</a></div>             
+                            <div><a href="https://www.eticket.mx/vendeconnosotros.aspx" class="URLBLANCA">Vende tus boletos en eticket</a></div> 
+                            <div><a href="https://www.eticket.mx/contenido.aspx?id=1" class="URLBLANCA">Preguntas Frecuentes</a></div> 
+                            <div><a href="https://www.eticket.mx/comunicados.aspx" class="URLBLANCA">Comunicados</a></div> 
+                            <div><a href="https://www.eticket.mx/contacto.aspx" class="URLBLANCA">Contáctanos</a></div> 
+                            <div><a href="https://www.eticket.mx/avisodeprivacidad\" class="URLBLANCA">Políticas de Privacidad</a></div>     
+                            <div><a href="https://www.eticket.mx/terminosycondiciones\" class="URLBLANCA">Términos y Condiciones</a></div>    
+                                  
+                        </div><!--
+                     --><div id="pie_columna_3">
+                            <div>
+                                
+                                    <a href="https://wa.me/524422230423" target="_blank" onclick="gtag('event', 'Template_Principal', {'event_category': 'Grande', 'event_label': 'WhatsApp'},);">
+                                  
+                                    
+                                    <img src="https://cdn.eticket.mx/imagenes/imgbnrs/240905194810035_banner_Whats-MX.gif" width="500" alt="WhatsApp">
+                                  
+                                  
+                                      </a>
+                                  
+                                <div class="grisfondo" style="margin:5px auto 10px auto; height:1PX"><img src="images/spacer.gif" height="1" width="100%"></div>
+                                <div class="font12 blanco" style="text-align:left">
+                                    <div style="display:inline-block; margin-left:0px">
+                                        <div class="tb">
+                                            <div class="row">
+                                                <div class="col" style="vertical-align:middle; width:28px; text-align:left">
+                                                    <a target="_blank" href="https://www.twitter.com/eticket"><img src="images/webpage/redes/2016/twitter.png" width="25px" alt="twitter" style="border:none"></a>
+                                                </div>
+                                                <div class="col" style="vertical-align:middle">
+                                                    <a class="URLBLANCA" target="_blank" href="https://www.twitter.com/eticket">Síguenos</a>
+                                                </div>                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div style="display:inline-block; margin-left:8px">
+                                        <div class="tb">
+                                            <div class="row">
+                                                <div class="col" style="vertical-align:middle; width:28px; text-align:left">
+                                                    <a target="_blank" href="https://www.instagram.com/eticketmx"><img src="images/webpage/redes/2016/instagram.png" width="25px" alt="instagram" style="border:none"></a>
+                                                </div>
+                                                <div class="col" style="vertical-align:middle">
+                                                    <a class="URLBLANCA" target="_blank" href="https://www.instagram.com/eticketmx">Míranos</a>
+                                                </div>                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div style="display:inline-block; margin-left:8px">
+                                        <div class="tb">
+                                            <div class="row">
+                                                <div class="col" style="vertical-align:middle; width:28px; text-align:left">
+                                                    <a target="_blank" href="https://www.facebook.com/eticket"><img src="images/webpage/redes/2016/facebook.png" width="25px" alt="facebook" style="border:none"></a>
+                                                </div>
+                                                <div class="col" style="vertical-align:middle">
+                                                    <a class="URLBLANCA" target="_blank" href="https://www.facebook.com/eticket">Quiérenos</a>
+                                                </div>                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                    
+                                </div>
+                                <div class="font12 blanco" style="text-align:left">
+                                
+                                    <div style="display:inline-block; margin-left:0px">
+                                        <div class="tb">
+                                            <div class="row">
+                                                <div class="col" style="vertical-align:middle">
+                                                         La vida esta llena de experiencias...<br> #experienciaeticket
+                                                </div>                                
+                                                <div class="col" style="vertical-align:middle; width:30px; text-align:center; margin-left:5px">
+                                                    &nbsp;😄&nbsp;
+                                                    <!--
+                                                    <img src="images/webpage/redes/2016/snapchat.png" width="25px" alt="snapchat" style="border:none" />
+                                                    -->
+                                                </div>
+                                                <div class="col" style="vertical-align:middle">
+                                                    <!--
+                                                        #experienciaeticket
+                                                    -->
+                                                </div>                                                                
+                                            </div>
+                                        </div>
+                                    </div>                  
+                                
+                                
+                                </div>                
+                            </div>
+                        </div>        
+                        
+                    </div>
+                      
+                    <div style="width:100%">
+                        <img src="images/spacer.gif" width="1" height="5">
+                    </div>   
+                                              
+                </div>   
+                
+                <div style="width:100%;" align="center" class="negrofondo">
+                    <div class="font14 boldear600 blanco" style="padding:10px 0px">
+                        © 2024 :: eticket :: Todos los Derechos Reservados :: http://www.eticket.mx/
+                    </div>
+                </div>     
+                      
+            </div> 
+            <!-- Termina div Seccion footer-->		        
+        </div>
+        
+        <!-- loader overlay -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        
+        
+    
+    
+    </div></body><!-- InstanceEnd --></html>
